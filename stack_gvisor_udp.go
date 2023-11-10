@@ -17,12 +17,12 @@ import (
 	N "github.com/sagernet/sing/common/network"
 	"github.com/sagernet/sing/common/udpnat"
 
-	"github.com/metacubex/gvisor/pkg/buffer"
-	"github.com/metacubex/gvisor/pkg/tcpip"
-	"github.com/metacubex/gvisor/pkg/tcpip/adapters/gonet"
-	"github.com/metacubex/gvisor/pkg/tcpip/checksum"
-	"github.com/metacubex/gvisor/pkg/tcpip/header"
-	"github.com/metacubex/gvisor/pkg/tcpip/stack"
+	"github.com/MerlinKodo/gvisor/pkg/buffer"
+	"github.com/MerlinKodo/gvisor/pkg/tcpip"
+	"github.com/MerlinKodo/gvisor/pkg/tcpip/adapters/gonet"
+	"github.com/MerlinKodo/gvisor/pkg/tcpip/checksum"
+	"github.com/MerlinKodo/gvisor/pkg/tcpip/header"
+	"github.com/MerlinKodo/gvisor/pkg/tcpip/stack"
 )
 
 type UDPForwarder struct {

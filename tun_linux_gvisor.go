@@ -3,8 +3,8 @@
 package tun
 
 import (
-	"github.com/metacubex/gvisor/pkg/tcpip/link/fdbased"
-	"github.com/metacubex/gvisor/pkg/tcpip/stack"
+	"github.com/MerlinKodo/gvisor/pkg/tcpip/link/fdbased"
+	"github.com/MerlinKodo/gvisor/pkg/tcpip/stack"
 )
 
 var _ GVisorTun = (*NativeTun)(nil)

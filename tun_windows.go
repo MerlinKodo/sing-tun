@@ -19,9 +19,9 @@ import (
 	N "github.com/sagernet/sing/common/network"
 	"github.com/sagernet/sing/common/windnsapi"
 
-	"github.com/metacubex/sing-tun/internal/winipcfg"
-	"github.com/metacubex/sing-tun/internal/winsys"
-	"github.com/metacubex/sing-tun/internal/wintun"
+	"github.com/MerlinKodo/sing-tun/internal/winipcfg"
+	"github.com/MerlinKodo/sing-tun/internal/winsys"
+	"github.com/MerlinKodo/sing-tun/internal/wintun"
 
 	"golang.org/x/sys/windows"
 )

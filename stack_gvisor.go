@@ -13,16 +13,16 @@ import (
 	"github.com/sagernet/sing/common/logger"
 	M "github.com/sagernet/sing/common/metadata"
 
-	"github.com/metacubex/gvisor/pkg/tcpip"
-	"github.com/metacubex/gvisor/pkg/tcpip/adapters/gonet"
-	"github.com/metacubex/gvisor/pkg/tcpip/header"
-	"github.com/metacubex/gvisor/pkg/tcpip/network/ipv4"
-	"github.com/metacubex/gvisor/pkg/tcpip/network/ipv6"
-	"github.com/metacubex/gvisor/pkg/tcpip/stack"
-	"github.com/metacubex/gvisor/pkg/tcpip/transport/icmp"
-	"github.com/metacubex/gvisor/pkg/tcpip/transport/tcp"
-	"github.com/metacubex/gvisor/pkg/tcpip/transport/udp"
-	"github.com/metacubex/gvisor/pkg/waiter"
+	"github.com/MerlinKodo/gvisor/pkg/tcpip"
+	"github.com/MerlinKodo/gvisor/pkg/tcpip/adapters/gonet"
+	"github.com/MerlinKodo/gvisor/pkg/tcpip/header"
+	"github.com/MerlinKodo/gvisor/pkg/tcpip/network/ipv4"
+	"github.com/MerlinKodo/gvisor/pkg/tcpip/network/ipv6"
+	"github.com/MerlinKodo/gvisor/pkg/tcpip/stack"
+	"github.com/MerlinKodo/gvisor/pkg/tcpip/transport/icmp"
+	"github.com/MerlinKodo/gvisor/pkg/tcpip/transport/tcp"
+	"github.com/MerlinKodo/gvisor/pkg/tcpip/transport/udp"
+	"github.com/MerlinKodo/gvisor/pkg/waiter"
 )
 
 const WithGVisor = true

@@ -12,14 +12,14 @@ import (
 	M "github.com/sagernet/sing/common/metadata"
 	N "github.com/sagernet/sing/common/network"
 
-	"github.com/metacubex/gvisor/pkg/buffer"
-	"github.com/metacubex/gvisor/pkg/tcpip/adapters/gonet"
-	"github.com/metacubex/gvisor/pkg/tcpip/header"
-	"github.com/metacubex/gvisor/pkg/tcpip/link/channel"
-	"github.com/metacubex/gvisor/pkg/tcpip/stack"
-	"github.com/metacubex/gvisor/pkg/tcpip/transport/udp"
-	"github.com/metacubex/gvisor/pkg/waiter"
-	"github.com/metacubex/sing-tun/internal/clashtcpip"
+	"github.com/MerlinKodo/gvisor/pkg/buffer"
+	"github.com/MerlinKodo/gvisor/pkg/tcpip/adapters/gonet"
+	"github.com/MerlinKodo/gvisor/pkg/tcpip/header"
+	"github.com/MerlinKodo/gvisor/pkg/tcpip/link/channel"
+	"github.com/MerlinKodo/gvisor/pkg/tcpip/stack"
+	"github.com/MerlinKodo/gvisor/pkg/tcpip/transport/udp"
+	"github.com/MerlinKodo/gvisor/pkg/waiter"
+	"github.com/MerlinKodo/sing-tun/internal/clashtcpip"
 )
 
 type Mixed struct {

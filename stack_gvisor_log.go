@@ -5,7 +5,7 @@ package tun
 import (
 	"time"
 
-	gLog "github.com/metacubex/gvisor/pkg/log"
+	gLog "github.com/MerlinKodo/gvisor/pkg/log"
 )
 
 func init() {

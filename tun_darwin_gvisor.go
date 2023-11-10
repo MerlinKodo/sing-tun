@@ -5,10 +5,10 @@ package tun
 import (
 	"github.com/sagernet/sing/common/bufio"
 
-	"github.com/metacubex/gvisor/pkg/buffer"
-	"github.com/metacubex/gvisor/pkg/tcpip"
-	"github.com/metacubex/gvisor/pkg/tcpip/header"
-	"github.com/metacubex/gvisor/pkg/tcpip/stack"
+	"github.com/MerlinKodo/gvisor/pkg/buffer"
+	"github.com/MerlinKodo/gvisor/pkg/tcpip"
+	"github.com/MerlinKodo/gvisor/pkg/tcpip/header"
+	"github.com/MerlinKodo/gvisor/pkg/tcpip/stack"
 )
 
 var _ GVisorTun = (*NativeTun)(nil)

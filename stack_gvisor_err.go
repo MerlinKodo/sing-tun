@@ -7,8 +7,8 @@ import (
 
 	E "github.com/sagernet/sing/common/exceptions"
 
-	"github.com/metacubex/gvisor/pkg/tcpip"
-	"github.com/metacubex/gvisor/pkg/tcpip/adapters/gonet"
+	"github.com/MerlinKodo/gvisor/pkg/tcpip"
+	"github.com/MerlinKodo/gvisor/pkg/tcpip/adapters/gonet"
 )
 
 type gTCPConn struct {
